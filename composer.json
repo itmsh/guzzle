@@ -30,7 +30,7 @@
         "php": ">=5.5",
         "ext-json": "*",
         "guzzlehttp/promises": "^1.0",
-        "guzzlehttp/psr7": "^1.4"
+        "guzzlehttp/psr7": "dev-master"
     },
     "require-dev": {
         "ext-curl": "*",
