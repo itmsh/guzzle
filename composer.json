@@ -20,11 +20,17 @@
             "homepage": "https://github.com/mtdowling"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/itmsh/psr7"
+        }
+    ],
     "require": {
         "php": ">=5.5",
         "ext-json": "*",
         "guzzlehttp/promises": "^1.0",
-        "itmsh/psr7": "^1.4"
+        "guzzlehttp/psr7": "^1.4"
     },
     "require-dev": {
         "ext-curl": "*",
